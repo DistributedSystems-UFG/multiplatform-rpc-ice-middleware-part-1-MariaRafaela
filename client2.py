@@ -15,6 +15,8 @@ rep = printer1.printString("Hello World from printer1!")
 print(rep)
 rep = printer2.printString("Hello World from printer2!")
 print(rep)
+
+communicator.waitForShutdown()
  
 # toUpperCase — printer1
 rep = printer1.toUpperCase("hello from printer1")
