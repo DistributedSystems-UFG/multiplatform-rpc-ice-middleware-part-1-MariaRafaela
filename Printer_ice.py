@@ -71,6 +71,13 @@ if 'PrinterPrx' not in _M_Demo.__dict__:
         def printString(self, s, current=None):
             raise NotImplementedError("servant method 'printString' not implemented")
 
+        def toUpperCase(self, s, current=None):
+            raise NotImplementedError("servant method 'toUpperCase' not implemented")
+ 
+        def countWords(self, s, current=None):
+            raise NotImplementedError("servant method 'countWords' not implemented")
+ 
+
         def __str__(self):
             return IcePy.stringify(self, _M_Demo._t_PrinterDisp)
 

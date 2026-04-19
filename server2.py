@@ -8,6 +8,16 @@ class PrinterI(Demo.Printer):
     def printString(self, s, current=None):
         print(self.t, s)
         return s + "*"
+    
+    def toUpperCase(self, s, current=None):
+        result = s.upper()
+        print(self.t, f"toUpperCase({s!r}) => {result!r}")
+        return result
+ 
+    def countWords(self, s, current=None):
+        result = len(s.split())
+        print(self.t, f"countWords({s!r}) => {result}")
+        return result
 
 communicator = Ice.initialize(sys.argv) 
 
