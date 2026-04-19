@@ -5,3 +5,6 @@ sudo dnf install python3-ice ice-compilers
 ```
 
 Note: This code is exactly as in Example 3.21 of Maarten van Steen's book.
+
+Dois novos métodos foram adicionados: toUpperCase (recebe uma string e retorna ela convertida para letras maiúsculas) e countWords (recebe uma string e retorna o número de palavras).
+Sempre que a interface mudar, o Printer_ice.py deve ser substituído em todas as máquinas antes de reiniciar.
